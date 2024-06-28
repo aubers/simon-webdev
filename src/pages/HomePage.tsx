@@ -5,6 +5,7 @@ import Socials from "../components/Socials";
 import Checkbox from "../components/Checkbox";
 import { useSortedTags } from "../lib/useSortedTags";
 import { useFilteredProjects } from "../lib/useFilteredProjects";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
   const tags = useSortedTags();
@@ -88,10 +89,7 @@ export default function HomePage() {
         </ul>
       </main>
 
-      <footer className="mx-4 my-6 flex items-center justify-between lg:mx-0">
-        <Socials />
-        <p className="text-sm text-white/80">© 2023 Simon Auber</p>
-      </footer>
+      <Footer />
     </div>
   );
 }

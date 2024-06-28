@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Project } from "../lib/Project";
 import { makeSlug } from "../lib/makeSlug";
+import Tag from "./Tag";
 
 interface ProjectItemProps {
   project: Project;
@@ -28,9 +29,7 @@ export default function ProjectItem({ project }: ProjectItemProps) {
         <div className="flex items-end gap-2">
           <ul className="flex flex-1 flex-wrap gap-2 text-xs">
             {project.tags.map((tag) => (
-              <li key={tag} className="bg-lightgray rounded px-2 py-1">
-                {tag}
-              </li>
+              <Tag key={tag} tag={tag} />
             ))}
           </ul>
           <Link
