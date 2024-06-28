@@ -2,12 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Simon Auber | Portfolio</title>
+    <meta property="og:title" content="Simon - Portfolio développeur web" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:description"
+      content="Découvrez le travail de Simon, développeur web full-stack."
+    />
+    <meta property="og:url" content="https://simon-webdev.vercel.app" />
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Rouen",
+          "postalCode": "76000"
+        },
+        "name": "Simon - Développeur web",
+        "openingHours": ["Mo-Fr 09:00-18:00"],
+        "url": "https://simon-webdev.vercel.app"
+      }
+    </script>
   </body>
 </html>
