@@ -27,7 +27,7 @@ export default function Checkbox({ name, checked, onChange }: CheckboxProps) {
         aria-checked="false"
         aria-controls={id}
       >
-        {checked && <AiOutlineCheck />}
+        {checked && <AiOutlineCheck className="text-black" />}
       </button>
       <span onClick={onClick} className="cursor-pointer text-sm">
         {name}
