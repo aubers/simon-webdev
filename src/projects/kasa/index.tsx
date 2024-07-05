@@ -22,7 +22,7 @@ export const kasa: Project = {
         </a>
         , j'ai du réaliser ce site à partir d'une maquette Figma. Le but de ce
         projet était de développer une application <strong>React.js</strong>{" "}
-        complète, à partir d'une maquette, en utilisant aucune libraire hors
+        complète, à partir d'une maquette, en utilisant aucune libraire hors{" "}
         <strong>React Router</strong>.
       </p>
       <p>

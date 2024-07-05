@@ -9,7 +9,7 @@ export const monVieuxGrimmoire: Project = {
   icon,
   title: "Mon Vieux Grimmoire (API)",
   description:
-    "L'API d'un site de notation de livres. Avec authentification et création de compte utilisateur et actions CRUD sur une ressource.",
+    "L'API d'un site de notation de livres. Avec authentification et création de comptes utilisateurs et actions CRUD.",
   github: "https://github.com/purplnay/mon-vieux-grimmoire-api",
   text: (
     <>
@@ -24,15 +24,15 @@ export const monVieuxGrimmoire: Project = {
       <p>
         Le projet consiste en la création d'une API avec{" "}
         <strong>Express</strong> et <strong>MongoDB</strong> qui sera utilisée
-        par le front-end. Une spécification de l'API ainsi qu'une application
-        React.js pour le front sont fournis.
+        par le front-end. Les spécifications de l'API ainsi qu'une application
+        React.js pour le front sont fournies.
       </p>
       <p>
         Le back-end doit permettre la création de comptes utilisateurs, la
         connexion à un compte, l'utilisation des <strong>JSON Web Token</strong>{" "}
         ainsi que la sécurisation des données utilisateurs en{" "}
-        <strong>chiffrant</strong> les mots de passes et en s'assurant de
-        l'uniqueté des adresses emails.
+        <strong>chiffrant</strong> les mots de passe et en s'assurant de
+        l'unicité des adresses emails.
       </p>
     </>
   ),

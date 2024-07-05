@@ -8,7 +8,7 @@ export const ninaCarducci: Project = {
   icon,
   title: "Nina Carducci - Photographe",
   description:
-    "Portfolio de la photographe Nina Carducci optimisé SEO pour un meilleur référencement.",
+    "Portfolio de la photographe Nina Carducci optimisé en SEO pour un meilleur référencement.",
   github: "https://github.com/purplnay/nina-carducci.github.io",
   url: "https://purplnay.github.io/nina-carducci.github.io/",
   text: (
@@ -28,12 +28,11 @@ export const ninaCarducci: Project = {
         , <strong>Google Lighthouse</strong>, <strong>WAVE</strong> et{" "}
         <strong>Color Contrast Analyzer</strong>. Cela a permis de voir les
         points à améliorer pour le <strong>référencement</strong> du portfolio
-        ainsi que son
-        <strong>accessibilité</strong>.
+        ainsi que son <strong>accessibilité</strong>.
       </p>
       <p>
         Certains contrastes de couleurs ont été ajustés, l'ajout des metadonnées
-        pour les réseaux sociaux ainsi que les données{" "}
+        pour les réseaux sociaux, les données{" "}
         <a href="https://schema.org/" target="_blank">
           Schema.org
         </a>{" "}

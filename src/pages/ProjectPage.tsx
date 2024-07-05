@@ -44,21 +44,18 @@ export default function ProjectPage() {
               <span className="font-bold">Description :</span>{" "}
               {project.description}
             </p>
-            <p>
-              <span className="font-bold">Lien :</span>{" "}
-              {project.url ? (
+            {project.url && (
+              <p>
+                <span className="font-bold">Lien :</span>{" "}
                 <a
                   className="break-all text-primary hover:underline"
                   href={project.url}
                   target="_blank"
-                  rel="noreferrer"
                 >
                   {project.url}
                 </a>
-              ) : (
-                <span>Hors ligne</span>
-              )}
-            </p>
+              </p>
+            )}
             {project.github && (
               <p>
                 <span className="font-bold">GitHub :</span>{" "}

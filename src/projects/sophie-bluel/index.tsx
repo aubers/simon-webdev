@@ -19,15 +19,14 @@ export const sophieBluel: Project = {
           OpenClassrooms
         </a>
         . Le site contenait déjà le code du back-end en Node.js, ainsi que
-        l'intégration HTML et CSS. Les objectifs étaient de suivre les tâches du
+        l'intégration HTML et CSS. L'objectif était de suivre les tâches du{" "}
         <strong>Kaban</strong> afin d'y ajouter les parties{" "}
         <strong>dynamiques</strong>.
       </p>
       <p>
         L'utilisation des <strong>API DOM et fetch</strong> a permis de gérer
         les travaux via l'API tout en gardant l'interface en{" "}
-        <strong>synchronisation</strong>
-        avec la base de données du back-end.
+        <strong>synchronisation</strong> avec la base de données du back-end.
       </p>
       <p>
         Le portfolio possède également un{" "}
