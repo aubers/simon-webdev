@@ -5,9 +5,9 @@ export function BackHomeLink() {
   return (
     <Link
       to="/"
-      className="text-primary flex items-center gap-x-1 hover:underline"
+      className="flex items-center gap-x-1 text-primary hover:underline"
     >
-      <AiOutlineArrowLeft />
+      <AiOutlineArrowLeft className="text-primary" />
       <span>Aller à l'accueil</span>
     </Link>
   );

@@ -32,10 +32,7 @@ export default function ProjectItem({ project }: ProjectItemProps) {
               <Tag key={tag} tag={tag} />
             ))}
           </ul>
-          <Link
-            to={projectUrl}
-            className="text-primary text-sm hover:underline"
-          >
+          <Link to={projectUrl} className="text-sm">
             Voir plus
           </Link>
         </div>

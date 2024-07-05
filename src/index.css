@@ -7,7 +7,15 @@
     @apply bg-black font-sans text-white;
   }
 
+  svg {
+    @apply text-white;
+  }
+
   ::selection {
     @apply bg-primary text-black;
+  }
+
+  a {
+    @apply text-primary hover:underline;
   }
 }
