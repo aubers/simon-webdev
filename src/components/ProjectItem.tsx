@@ -21,8 +21,10 @@ export default function ProjectItem({ project }: ProjectItemProps) {
       </Link>
       <div className="flex flex-1 flex-col gap-y-2">
         <div className="flex flex-col gap-y-1">
-          <p className="font-medium">
-            <Link to={projectUrl}>{project.title}</Link>
+          <p>
+            <Link to={projectUrl} className="text-white hover:text-primary">
+              {project.title}
+            </Link>
           </p>
           <p className="text-sm">{project.description}</p>
         </div>
