@@ -17,7 +17,13 @@ export default function Checkbox({ name, checked, onChange }: CheckboxProps) {
 
   return (
     <>
-      <input className="hidden" type="checkbox" id={id} checked={checked} />
+      <input
+        className="hidden"
+        type="checkbox"
+        id={id}
+        checked={checked}
+        readOnly
+      />
       <button
         onClick={onClick}
         className={clsx(
