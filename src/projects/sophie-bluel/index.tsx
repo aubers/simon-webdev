@@ -10,7 +10,7 @@ export const sophieBluel: Project = {
   icon,
   title: "Sohpie Bluel - Portfolio",
   description: "Le portfolio de Sophie Bluel, architecte d'intérieur.",
-  url: "https://github.com/purplnay/portfolio-sophie-bluel",
+  github: "https://github.com/purplnay/portfolio-sophie-bluel",
   text: (
     <>
       <p>

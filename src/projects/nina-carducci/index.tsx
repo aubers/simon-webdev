@@ -9,7 +9,8 @@ export const ninaCarducci: Project = {
   title: "Nina Carducci - Photographe",
   description:
     "Portfolio de la photographe Nina Carducci optimisé SEO pour un meilleur référencement.",
-  url: "https://github.com/purplnay/nina-carducci.github.io",
+  github: "https://github.com/purplnay/nina-carducci.github.io",
+  url: "https://purplnay.github.io/nina-carducci.github.io/",
   text: (
     <>
       <p>

@@ -23,7 +23,8 @@ export const p2pScreensharing: Project = {
     waitingRoom,
   ],
   tags: ["Vue", "TypeScript", "TailwindCSS"],
-  url: "https://github.com/purplnay/p2p-screensharing",
+  github: "https://github.com/purplnay/p2p-screensharing",
+  url: "https://p2p-screensharing.vercel.app/",
   text: (
     <>
       <p>

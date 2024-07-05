@@ -6,6 +6,7 @@ export interface Project {
   description: string;
   text: ReactNode;
   images: string[];
+  github?: string;
   url?: string;
   tags: string[];
 }

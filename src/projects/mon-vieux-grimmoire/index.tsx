@@ -10,7 +10,7 @@ export const monVieuxGrimmoire: Project = {
   title: "Mon Vieux Grimmoire (API)",
   description:
     "L'API d'un site de notation de livres. Avec authentification et création de compte utilisateur et actions CRUD sur une ressource.",
-  url: "https://github.com/purplnay/mon-vieux-grimmoire-api",
+  github: "https://github.com/purplnay/mon-vieux-grimmoire-api",
   text: (
     <>
       <p>

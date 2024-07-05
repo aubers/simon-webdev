@@ -10,7 +10,8 @@ export const genshinTeamRandomizer: Project = {
     "Un site web pour générer des équipes aléatoires pour le jeu Genshin Impact.",
   tags: ["React.js", "Next.js", "TypeScript", "TailwindCSS"],
   images: [desktop, mobile],
-  url: "https://github.com/purplnay/genshin-team-randomizer",
+  github: "https://github.com/purplnay/genshin-team-randomizer",
+  url: "https://genshin-team-randomizer.vercel.app/",
   text: (
     <>
       <p>

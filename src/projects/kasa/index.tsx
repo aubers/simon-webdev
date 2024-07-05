@@ -11,7 +11,8 @@ export const kasa: Project = {
   title: "Kasa",
   description:
     "Site web d'une agence de locations de vacances proposant de nombreux logements partout en France.",
-  url: "https://github.com/purplnay/kasa",
+  github: "https://github.com/purplnay/kasa",
+  url: "https://kasa-azure-eta.vercel.app/",
   text: (
     <>
       <p>

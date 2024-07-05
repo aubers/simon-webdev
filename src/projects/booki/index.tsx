@@ -8,7 +8,8 @@ export const booki: Project = {
   title: "Booki",
   description:
     "Trouvez des hébergements et des activités dans la ville de votre choix avec Booki !",
-  url: "https://github.com/purplnay/booki",
+  github: "https://github.com/purplnay/booki",
+  url: "https://purplnay.github.io/booki/",
   text: (
     <>
       <p>
