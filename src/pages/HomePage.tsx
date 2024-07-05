@@ -77,7 +77,7 @@ export default function HomePage() {
                 className="w-full max-w-md rounded border border-input-border bg-input-bg px-3 py-2 outline-none transition-colors focus:border-primary"
                 type="text"
                 id="search"
-                placeholder="ex: site vitrine"
+                placeholder="ex: site web"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
               />
