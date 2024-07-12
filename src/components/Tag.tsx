@@ -3,5 +3,5 @@ interface TagProps {
 }
 
 export default function Tag({ tag }: TagProps) {
-  return <li className="bg-lightgray rounded px-2 py-1">{tag}</li>;
+  return <li className="rounded bg-lightgray px-2 py-1">{tag}</li>;
 }

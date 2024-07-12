@@ -5,7 +5,7 @@ export default function Bubbles() {
     <div className="absolute -z-10 h-full w-full overflow-hidden opacity-50 blur-sm">
       <div className="relative mx-auto h-full lg:w-[1000px]">
         <motion.div
-          className="bg-primary absolute bottom-8 left-4 h-12 w-12 rounded-full"
+          className="absolute bottom-8 left-4 h-12 w-12 rounded-full bg-primary"
           transition={{
             delay: 0.3,
             type: "spring",
@@ -18,7 +18,7 @@ export default function Bubbles() {
           }}
         ></motion.div>
         <motion.div
-          className="bg-green absolute bottom-6 left-24 h-12 w-12 rounded-full"
+          className="absolute bottom-6 left-24 h-12 w-12 rounded-full bg-green"
           transition={{
             delay: 0.3,
             type: "spring",
@@ -31,7 +31,7 @@ export default function Bubbles() {
           }}
         ></motion.div>
         <motion.div
-          className="bg-blue absolute bottom-32 right-8 h-12 w-12 rounded-full"
+          className="absolute bottom-32 right-8 h-12 w-12 rounded-full bg-blue"
           transition={{
             delay: 0.3,
             type: "spring",
@@ -44,7 +44,7 @@ export default function Bubbles() {
           }}
         ></motion.div>
         <motion.div
-          className="bg-red absolute bottom-24 right-96 h-12 w-12 rounded-full"
+          className="absolute bottom-24 right-96 h-12 w-12 rounded-full bg-red"
           transition={{
             delay: 0.3,
             type: "spring",
@@ -57,7 +57,7 @@ export default function Bubbles() {
           }}
         ></motion.div>
         <motion.div
-          className="bg-yellow absolute bottom-6 left-72 h-12 w-12 rounded-full"
+          className="absolute bottom-6 left-72 h-12 w-12 rounded-full bg-yellow"
           transition={{
             delay: 0.3,
             type: "spring",
