@@ -30,7 +30,7 @@ export default function Checkbox({ name, checked, onChange }: CheckboxProps) {
           "flex h-3 w-3 items-center justify-center rounded-sm border text-black",
           checked ? "border-primary bg-primary" : "border-white",
         )}
-        aria-checked="false"
+        aria-checked={checked ? 'true' : 'false'}
         aria-controls={id}
       >
         {checked && <AiOutlineCheck className="text-black" />}
